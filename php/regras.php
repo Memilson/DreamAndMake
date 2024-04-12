@@ -6,50 +6,7 @@
     <link rel="icon" href="Logo\logo.png">
     <title>Regras do Dream and Make</title>
     <style>
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            text-align: center;
-            background-color: #181818; /* Cor de fundo escura */
-        }
 
-        .rules-container {
-            padding: 20px;
-            border: 2px solid #72B48F;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            background-color: rgba(18, 18, 18, 0.8); /* Cor de fundo escura com transparência */
-            color: white;
-            text-align: left;
-        }
-
-        h1 {
-            color: #61A57E;
-        }
-
-        p {
-            color: #ccc; /* Cor de texto mais clara */
-            margin-top: 10px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #72B48F;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        .button:hover {
-            background-color: #61A57E;
-        }
     </style>
 </head>
 <body>
