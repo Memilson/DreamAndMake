@@ -1,6 +1,14 @@
 <?php
-$connection = mysqli_connect("127.0.0.1", "root", "angelo", "JSDJASDSJADSAJFSDF");
-if (!$connection) {
-    die("Erro na conexão: " . mysqli_connect_error());
+$servername = "127.0.0.1";
+$database = "dreamandmake";
+$username = "damcomumuser";
+$password = "EEFiSNRK4.tY1jUH";
+
+$connection = mysqli_connect($servername, $username, $password, $database);
+
+if (!$connection){
+    die("Conexao faio:" . mysqli_connect_error());
+
 }
+echo "conexao xumbada";
 ?>

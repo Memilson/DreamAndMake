@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Logo/logo.png">
     <title>Dream and Make - Ajuda</title>
+    <link rel="stylesheet" href="../css/crievcmsm.php">
 </head>
 <body>
     <header>

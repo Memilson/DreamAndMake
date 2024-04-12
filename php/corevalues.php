@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dream and Make - Core Values</title>
     <link rel="icon" href="Logo\logo.png">
+    <link rel="stylesheet" href="../css/corevalues.css">
     <style>
     </style>
 </head>

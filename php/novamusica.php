@@ -6,6 +6,7 @@
     <link rel="icon" href="Logo\logo.png">
     <title>Dream and Make - Músicas</title>
     <link rel="icon" href="Logo\logo.png">
+    <link rel="stylesheet" href="../css/novamusica.css">
 </head>
 <body>
     <header>

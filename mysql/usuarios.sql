@@ -1,0 +1,7 @@
+CREATE TABLE Users(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    senha VARCHAR(100) NOT NULL,
+    token_reset_senha VARCHAR(255),
+    );

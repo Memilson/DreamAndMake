@@ -37,6 +37,7 @@ if (isset($_POST['submit'])) {
 <link rel="icon" href="Logo\logo.png">
 <title>Dream and Make - Envio</title>
     <title>Dream and Make</title>
+    <link rel="stylesheet" href="../css/enviar.css">
 </head>
 <body>
     <header>

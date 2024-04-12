@@ -1,0 +1,1 @@
+ALTER TABLE `tabela` ADD COLUMN coluda pra add VARCHAR(255);

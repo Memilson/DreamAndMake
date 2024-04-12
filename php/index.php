@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
+<?php
+include("php-func\conexaofunc.php")
+?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Logo\logo.png">
     <title>Bem-Vindo(a) ao Dream and Make</title>
-    <link rel="stylesheet" href="../css/index.css"
+    <link rel="stylesheet" href="../css/index.css" 
     <?php
     $imageFolder = 'corevalues'; // Substitua pelo nome da sua pasta de imagens
     $imageExtensions = ['jpg', 'jpeg', 'png', 'gif']; // Extensões de imagem permitidas
@@ -22,23 +24,22 @@
 
     // Escolhe uma imagem aleatória
     $randomImage = $imageFiles[array_rand($imageFiles)];
-    ?>
-    <style>
-        /* Aplica a imagem de fundo */
-        body {
-            background-image: url('<?php echo $imageFolder . "/" . $randomImage; ?>');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
+    ?> <style>
+    /* Aplica a imagem de fundo */
+    body {
+    background-image: url('<?php echo $imageFolder . "/" . $randomImage; ?>');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
 
-        @media (max-width: 768px) {
+    @media (max-width: 768px) {
 
-            /* Estilos para telas menores que 768px de largura */
-            body {
-                background-size: contain;
-            }
-        }
+    /* Estilos para telas menores que 768px de largura */
+    body {
+    background-size: contain;
+    }
+    }
     </style>
 </head>
 

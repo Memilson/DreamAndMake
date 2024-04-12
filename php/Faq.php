@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dream and Make - FAQ</title>
     <link rel="icon" href="Logo\logo.png">
+    <link rel="stylesheet" href="../css/faq.css">
 </head>
 <body>
     <header>

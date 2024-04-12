@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Logo\logo.png">
     <title>Dream and Make - Ajuda</title>
+    <link rel="stylesheet" href="../css/ajuda.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -14,7 +17,7 @@
         </div>
         <nav>
             <ul class="content__container__list">
-            <li class="content__container__list__item"><a href="inicio.php">Explorar</a></li>
+                <li class="content__container__list__item"><a href="inicio.php">Explorar</a></li>
                 <li class="content__container__list__item"><a href="galeria.php">Galeria</a></li>
                 <li class="content__container__list__item"><a href="novamusica.php">Musicas</a></li>
                 <li class="content__container__list__item"><a href="sla.php">Envie sua arte</a></li>
@@ -31,6 +34,7 @@
     </div>
     <div class="celebrate-phrase">
         Celebrando a Arte, Elevando Vozes...
-    </div>    
+    </div>
 </body>
+
 </html>
